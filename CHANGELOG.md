@@ -13,6 +13,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
+## [1.2.0] - 2026-05-25
+
+### Fixed
+
+- Correct repository URL in package.json from `creynosa` to `carlos-reynosa` (#)
+
 ## [1.1.1] - 2026-05-25
 
 ### Added
@@ -47,7 +53,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Auto-fallback to `"DS - 💰"` when no config file is present (#)
 - Error states for missing model, missing key, network errors, and parse failures (#)
 
-[unreleased]: https://github.com/carlos-reynosa/pi-deepseek-balance-status/compare/v1.1.1...HEAD
+[unreleased]: https://github.com/carlos-reynosa/pi-deepseek-balance-status/compare/v1.2.0...HEAD
+[1.2.0]: https://github.com/carlos-reynosa/pi-deepseek-balance-status/compare/v1.1.1...v1.2.0
 [1.1.1]: https://github.com/carlos-reynosa/pi-deepseek-balance-status/compare/v1.1.0...v1.1.1
 [1.1.0]: https://github.com/carlos-reynosa/pi-deepseek-balance-status/compare/v1.0.0...v1.1.0
 [1.0.0]: https://github.com/carlos-reynosa/pi-deepseek-balance-status/releases/tag/v1.0.0
