@@ -1,6 +1,6 @@
 {
   "name": "pi-deepseek-balance-status",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Pi extension that shows your DeepSeek account balance in the status bar",
   "keywords": ["pi-package"],
   "license": "MIT",
@@ -12,9 +12,14 @@
   "pi": {
     "extensions": ["./extensions"]
   },
-  "peerDependencies": {
+  "scripts": {
+    "check": "tsc --noEmit"
+  },
+  "devDependencies": {
     "@earendil-works/pi-coding-agent": "*",
-    "@earendil-works/pi-ai": "*",
-    "typebox": "*"
+    "typescript": "^5.7.0"
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
   }
 }
